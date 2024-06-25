@@ -37,7 +37,7 @@ h2 {
   background-color: white;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; 
   border-radius: 6px;
   padding: 5px;
 }
@@ -97,3 +97,18 @@ h2 {
   border-radius: 6px;
   padding: 5px;
 }
+
+
+.app .input-time {
+  margin-top: 0.8em;
+  width: 20em;
+  height: 2em;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  border: none;
+  border-radius: 6px;
+  padding: 5px;
+}
+

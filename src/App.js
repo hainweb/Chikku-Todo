@@ -20,10 +20,14 @@ function App() {
       <h3 style={{color:'white'}}>Ready to tackle it! </h3>
      
     </div>
+    
     <div className="input">
-      < input value={toDo} onChange={(e)=>setToDo(e.target.value)} type="text" placeholder=" Add item 🖋️..." />
+      < input  value={toDo} onChange={(e)=>setToDo(e.target.value)} type="text" placeholder=" Add item 🖋️..." />
+      <input type="datetime-local" id="time-input"/>
+      
       <i onClick={()=>setToDos([...toDos,{id:Date.now(), text: toDo,status:false}])} className="fas fa-plus"></i>
-    </div>
+     </div>
+
     <div className="todos">
      {  toDos.map((object)=>{
 
